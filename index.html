@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index-style.css">
+    <title>Single Product Page</title>
+</head>
+<body>
+    
+    <!-- HEADER SECTION -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="fa fa-shopping-cart" >
+                <span id="cart-count">(0)</span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="product-container">
+
+        <!-- GALLERY SECTION -->
+        <section class="product-gallery">
+            <div class="main-image">
+                <img src="images/headphone1.jpg" id="featured-img" alt="Product Image">
+            </div>
+            <div class="thumbnails">
+                <img src="images/headphone1.jpg" class="thumbnail active" alt="thumb 1">
+                <img src="images/headphone2.jpg" class="thumbnail " alt="Thumb 2">
+                <img src="images/headphone3.jpg" class="thumbnail" alt="Thumb 3">
+            </div>
+        </section>
+
+        <!-- PRODUCT DETAILS SECTION -->
+        <section class="product-details">
+            <h1 class="product-title">Wireless Headphones</h1>
+            <p class="price">€<span id="unit-price">120.00</span></p>
+
+
+            <div class="options">
+                <h3>Color</h3>
+                <div class="color-picker">
+                    <button class="color-dot black active"></button>
+                    <button class="color-dot blue"></button>
+                    <button class="color-dot grey"></button>
+                </div>
+            </div>
+
+            <div class="purchase-section">
+                <p>Quantity</p>
+                <div class="quantity-selector">
+                    <button id="minus-btn">-</button>
+                    <input type="number" id="qty-input" value="1" readonly>
+                    <button id="plus-btn">+</button>
+                </div>
+                <button class="add-to-cart-btn">ADD TO CART</button>
+            </div>
+
+            <p class="total-price">Total: €<span id="total-amount">120.00</span></p>
+
+            <div class="description">
+                <h3>Product Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <ul>
+                    <li>Bluetooth 5.0</li>
+                    <li>30-hour battery</li>
+                    <li>Noise cancelling</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <!-- JAVASCRIPT IMPORT -->
+    <script src="index-script.js"></script>
+</body>
+</html>
