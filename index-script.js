@@ -36,7 +36,7 @@ AddToCartBtn.addEventListener('click', () => {
     totalItemsInCart += addedQty ;
     cartCount.innerText = `(${totalItemsInCart})`;
 
-    //alert(`${addedQty} προϊόντα προστέθηκαν στο καλάθι!`);
+    alert(`${addedQty} Added to cart!`);
 })
 
 // IMAGE GALLERY
@@ -79,19 +79,19 @@ const container = document.querySelector('.main-image');
 const img = document.getElementById('featured-img');
 
 container.addEventListener('mousemove', (e) => {
-    // 1. Βρίσκουμε τις διαστάσεις του container
+   
     const { left, top, width, height } = container.getBoundingClientRect();
 
-    // 2. Υπολογίζουμε τη θέση του ποντικιού σε ποσοστό (%) μέσα στο κουτί
+    
     const x = ((e.pageX - left) / width) * 100;
     const y = ((e.pageY - top) / height) * 100;
 
-    // 3. Μετακινούμε το σημείο απ' όπου ξεκινάει το zoom (origin) και μεγαλώνουμε
+    
     img.style.transformOrigin = `${x}% ${y}%`;
     img.style.transform = "scale(1.5)"; 
 });
 
-// Όταν το ποντίκι βγαίνει από την εικόνα, επαναφορά
+
 container.addEventListener('mouseleave', () => {
     img.style.transformOrigin = "center center";
     img.style.transform = "scale(1)";
