@@ -14,9 +14,9 @@
 * CSS
 * JavaScript
 
-** ENGLISH **
+# ENGLISH 
 
-# Single Product Page  
+## Single Product Page  
 
   A modern and responsive product presentation page for wireless headphones.
 
