@@ -1,22 +1,6 @@
 # Single Product Page
 
-Μια σύγχρονη και responsive σελίδα παρουσίασης προϊόντος για ασύρματα ακουστικά.
-
-## Λειτουργίες
-* Interactive Gallery: Αλλαγή κεντρικής εικόνας επιλέγοντας thumbnails.
-* Image Zoom: Εφέ μεγέθυνσης κατά το πέρασμα του ποντικιού (hover) στην κύρια εικόνα.
-* Δυναμικό Καλάθι: Υπολογισμός συνολικής τιμής βάσει ποσότητας και ενημέρωση του μετρητή στο καλάθι.
-* Color Picker: Επιλογή χρώματος προϊόντος.
-* Responsive Design: Πλήρως συμβατό με κινητά και tablet.
-
-## Τεχνολογίες
-* HTML
-* CSS
-* JavaScript
-
-# ENGLISH 
-
-## Single Product Page  
+## ENGLISH 
 
   A modern and responsive product presentation page for wireless headphones.
 
@@ -31,3 +15,21 @@
 * HTML
 * CSS
 * JavaScript
+
+# GREEK
+
+Μια σύγχρονη και responsive σελίδα παρουσίασης προϊόντος για ασύρματα ακουστικά.
+
+## Λειτουργίες
+* Interactive Gallery: Αλλαγή κεντρικής εικόνας επιλέγοντας thumbnails.
+* Image Zoom: Εφέ μεγέθυνσης κατά το πέρασμα του ποντικιού (hover) στην κύρια εικόνα.
+* Δυναμικό Καλάθι: Υπολογισμός συνολικής τιμής βάσει ποσότητας και ενημέρωση του μετρητή στο καλάθι.
+* Color Picker: Επιλογή χρώματος προϊόντος.
+* Responsive Design: Πλήρως συμβατό με κινητά και tablet.
+
+## Τεχνολογίες
+* HTML
+* CSS
+* JavaScript
+
+
