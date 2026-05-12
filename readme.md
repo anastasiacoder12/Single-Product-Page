@@ -13,3 +13,21 @@
 * HTML
 * CSS
 * JavaScript
+
+** ENGLISH **
+
+# Single Product Page  
+
+  A modern and responsive product presentation page for wireless headphones.
+
+## Features
+* Interactive Gallery: Change main image by selecting thumbnails.
+* Image Zoom: Zoom effect when hovering over the main image.
+* Dynamic Cart: Calculate total price based on quantity and update the counter in the cart.
+* Color Picker: Select product color.
+* Responsive Design: Fully compatible with mobile and tablet.
+
+## Tech Stack
+* HTML
+* CSS
+* JavaScript
